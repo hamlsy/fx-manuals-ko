@@ -196,65 +196,199 @@ Matribox를 컴퓨터에 연결하면 전용 소프트웨어로 다음 작업이
 
 지원 플랫폼: Windows, macOS
 
-## 10) 이펙트 목록 (정리본)
-### FX1 / FX2 (다이내믹, 필터, 드라이브, 피치 등)
-대표 이펙트:
-- COMP, COMP2
-- AC Sim (STD/Jumbo/ENH/Piezo)
-- Touch-W, Auto-W, UK-W, Cry-W
-- Octaver, Dual Melody, Pitch
-- Tape Mod, Ring Mod, Filter, Boost
-- 드라이브/퍼즈 계열: Skreamer, Butter OD, Super OD, Blues OD, Dist Plus, JP Dist, Shark, Dark Mouse, Fuzz Cream, Red Fuzz, Bass Dist
+## 10) 이펙트 목록 (상세)
+### FX1 & FX2 모듈
+| 이름 | 설명 |
+|---|---|
+| COMP | Ross 계열 컴프레서 성향의 모델입니다. |
+| COMP 2 | Keeley C4 4노브 컴프레서 계열 성향입니다. |
+| AC Sim | 일렉기타를 위한 어쿠스틱 시뮬레이터. `STD`, `Jumbo`, `ENH`, `Piezo` 모드 제공. |
+| Touch-W | 연주 강도에 반응하는 터치 와우(기타/베이스 모드). |
+| Auto-W | 속도 기반으로 자동 스윕되는 오토 와우. |
+| UK-W | VOX V846 계열 와우 성향. |
+| Cry-W | Dunlop CryBaby 계열 와우 성향. |
+| Octaver | 폴리포닉 옥타브 이펙트. |
+| Dual Melody | 폴리포닉 하모나이저/피치 시프터. |
+| Pitch | 폴리포닉 피치 시프터/하모나이저. |
+| Tape Mod | 빈티지 테이프 포화감 기반의 따뜻한 질감. |
+| Ring Mod | 벨/차임 같은 비조화 배음을 만드는 링 모듈레이터. |
+| Filter | 4단계 오토 필터 기반 신스 라이크 톤 생성. |
+| Boost | Xotic EP Booster 계열 부스트 성향. |
+| Skreamer | Ibanez TS-808 Tube Screamer 계열 오버드라이브. |
+| Butter OD | 2노브 옐로우 오버드라이브 계열의 두툼한 드라이브 질감. |
+| Super OD | 3노브 옐로우 오버드라이브 계열 성향. |
+| Blues OD | 풀레인지 성향의 블루스 계열 오버드라이브. |
+| Dist Plus | 기타/베이스 모두에 적용 가능한 기본 디스토션. |
+| JP Dist | 오렌지 계열 3노브 디스토션 성향. |
+| Shark | MI Audio Crunch Box 계열 디스토션 성향. |
+| Dark Mouse | ProCo RAT(LM308 초기 계열) 성향 디스토션. |
+| Fuzz Cream | Electro-Harmonix Big Muff Pi 계열 퍼즈/디스토션. |
+| Red Fuzz | Dallas-Arbiter Fuzz Face 계열 퍼즈 성향. |
+| Bass Dist | 베이스용 톤 범위가 넓은 디스토션. |
 
-공통 파라미터(효과별 상이):
-- `VOL/Output`, `Gain/Fuzz/Sustain`, `Tone/Filter`, `Mix/Blend`, `Rate`, `Depth`, `Range`, `Q`, `Sync`, `Dry/Wet`, 피치 관련 값
+공통 파라미터 계열(모델별 상이):
+- `Sustain`, `Output`, `Attack`, `Clip`
+- `Body`, `Top`
+- `VOL`, `Sense`, `Range`, `Q`, `Mix/Blend`
+- `Depth`, `Rate`, `Low/Bass`, `High/Treble`, `Sync`
+- `Low Oct`, `High Oct`, `Dry`, `Wet`
+- `H-Pitch`, `L-Pitch`, `H-Vol`, `L-Vol`
+- `Gain/Fuzz`, `H-Cut`, `Freq`, `Fine`, `Tone/Filter`, `Step`, `Bright`
 
 ### AMP 모듈
-클린/크런치/하이게인/베이스/어쿠스틱 프리앰프 모델 제공.
-예:
-- Fender 계열: TWD Deluxe, B-Man N/B, Dark Double
-- VOX 계열: Voks 30N, Voks 30TB
-- Marshall 계열: Brit 45, Brit 50JP, Brit 800
-- Mesa/Boogie 계열: Calif Star CL/OD, Calif IIC+, Calif IV, Calif DualV/M
-- 하이게인: Dizzy VH, Eng 120, Halen 51, Sol 100 LD, Bog XT Blue/Red
-- 베이스/어쿠스틱: A BassVT, A BassFT, F-2Bass, Voks Bass, Calif Bass, AC Preamp
+| 이름 | 설명 |
+|---|---|
+| TWD Deluxe | Fender Tweed Deluxe 계열 앰프 성향. |
+| B-Man N | Fender '59 Bassman 노멀 채널 계열 성향. |
+| Dark Double | Fender '65 Twin Reverb 계열 성향. |
+| Calif Star CL | Mesa/Boogie Lone Star CH1 계열 성향. |
+| Voks 30N | VOX AC30HW 노멀 채널 계열 성향. |
+| Bog SV CL | Bogner Shiva 20주년 Ch1 계열 성향. |
+| Jazz 120 | Jazz Chorus 계열 솔리드스테이트 콤보 성향. |
+| Superb CL | Matchless Chieftain 212 클린 계열 성향. |
+| Doctor CL | Dr. Z Maz 38 Sr 클린 계열 성향. |
+| Brit 45 | Marshall JTM45 노멀 계열 성향. |
+| Brit 50JP | Marshall JMP50 점프 연결 계열 성향. |
+| Brit 800 | Marshall JCM800 2204 계열 성향. |
+| Flyman B1 | Brown Eye 계열 UK 부티크 BE 채널 성향. |
+| Doctor OD | Dr. Z Maz 38 Sr 드라이브 계열 성향. |
+| Bog SV OD | Bogner Shiva 20주년 Ch2 계열 성향. |
+| B-Man B | Fender '59 Bassman 브라이트 채널 계열 성향. |
+| Voks 30TB | VOX AC30HW Top Boost 계열 성향. |
+| Supero 2 | Supro Dual-Tone 1624T 드라이브 성향. |
+| Superb OD | Matchless Chieftain 212 드라이브 계열 성향. |
+| Sol 100 OD | Soldano SLO100 크런치 계열 성향. |
+| Calif Star OD | Mesa/Boogie Lone Star CH2 계열 성향. |
+| Calif IIC+ | Mesa/Boogie Mark II C+ 리드 계열 성향. |
+| Dizzy VH | Diezel VH4 계열 성향. |
+| Eng 120 | ENGL Savage 120 E610 계열 성향. |
+| Halen 51 | Peavey 5150 리드 계열 성향. |
+| Sol 100 LD | Soldano SLO100 오버드라이브 채널 성향. |
+| Calif IV | Mesa/Boogie Mark IV 리드 계열 성향. |
+| Calif DualV | Mesa/Boogie Dual Rectifier 빈티지 성향. |
+| Calif DualM | Mesa/Boogie Dual Rectifier 모던 성향. |
+| Dragon LD | Grindrod Pendragon PG20C 계열 성향. |
+| Flyman B1+ | Brown Eye 계열의 더 공격적인 변형 성향. |
+| Tanger R100 | Orange Rockerverb 100 더티 채널 계열 성향. |
+| Bog XT Blue | Bogner Ecstasy 블루 채널 계열 성향. |
+| Bog XT Red | Bogner Ecstasy 레드 채널 계열 성향. |
+| A BassVT | Ampeg SVT 계열 베이스 앰프 성향. |
+| A BassFT | Ampeg B-15 Flip Top 계열 베이스 앰프 성향. |
+| F-2Bass | Alembic F-2B 계열 베이스 프리앰프 성향. |
+| Voks Bass | 빈티지 VOX AC-100 베이스 앰프 계열 성향. |
+| Calif Bass | Mesa/Boogie Bass 400 계열 성향. |
+| AC Preamp | AER Colourizer 2 계열 어쿠스틱 프리앰프 성향. |
 
-앰프 공통 파라미터:
-- `Gain/VOL`, `Master/Output`, `Bass`, `Middle`, `Treble`, `Presence`, `Bright`, `Cut` 등
+앰프 공통 파라미터 계열:
+- `VOL/Gain`, `Output/Master/VOL`, `PRES`
+- `Bass`, `Middle`, `Treble`, `Tone`, `Cut`
+- `Bright`, `Char`, `MRange`, `Balance`
+- `Freq`, `EQ Q`, `EQ Gain`
 
 ### NR 모듈
-- Gate 1(Decimator 스타일)
-- Gate 2(Attack/Release 조절형)
+| 이름 | 설명 |
+|---|---|
+| Gate 1 | ISP Decimator 계열 노이즈 게이트 성향. |
+| Gate 2 | `Attack`/`Release` 조절이 가능한 유연한 게이트. |
 
-파라미터: `Thre`, `Attack`, `Rel`
+공통 파라미터: `Thre`, `Attack`, `Rel`
 
 ### CAB 모듈
-다양한 기타/베이스 캐비닛 및 어쿠스틱 바디 시뮬레이션 제공.
-예:
-- 1x6, 1x8, 1x10, 1x12, 2x12, 4x10, 4x12, 8x10
-- 어쿠스틱 바디: Dreadnought, OM, Jumbo, GA
+| 이름 | 설명 |
+|---|---|
+| Supero 1x6 | Supro 계열 1x6 캐비닛(타원형 스피커) 성향. |
+| TWD 1x8 | Fender Champ 계열 1x8 캐비닛 성향. |
+| TWD-P 1x10 | Fender Princeton 계열 1x10 캐비닛 성향. |
+| Bog SV 1x12 | Bogner Shiva 계열 1x12 캐비닛 성향. |
+| Viblux 1x12 | Fender Vibrolux 계열 1x12 캐비닛 성향. |
+| Voks 1x12 | VOX AC15 계열 1x12 캐비닛 성향. |
+| Calif 1x12 | 1980s Mesa/Boogie 계열 1x12 캐비닛 성향. |
+| TWD 2x12 | 커스텀 Fender 계열 2x12 캐비닛 성향. |
+| Double 2x12 | Fender '65 Twin Reverb 계열 2x12 성향. |
+| Star 2x12 | Mesa/Boogie Lonestar 계열 2x12 성향. |
+| Rock 2x12 | Two-Rock 계열 2x12 캐비닛 성향. |
+| Jazz 2x12 | Jazz Chorus 계열 2x12 캐비닛 성향. |
+| BritGN 2x12 | Marshall 2550 계열 2x12 캐비닛 성향. |
+| Free 2x12 | Fryette Deliverance 계열 2x12 성향. |
+| B-Man 4x10 | Fender '59 Bassman 계열 4x10 성향. |
+| Brit75 4x12 | G12T-75 성향의 Marshall 계열 4x12. |
+| BritGN 4x12 | Greenback 성향의 Marshall 계열 4x12. |
+| BritLD 4x12 | Marshall 1960AV 계열 4x12 성향. |
+| BritDK 4x12 | 1968 Marshall 계열 4x12 성향. |
+| BritMD 4x12 | 커스텀 Marshall 계열 4x12 성향. |
+| Bog 4x12 | Bogner Uberkab 계열 4x12 성향. |
+| Dizzy 4x12 | Diezel 계열 4x12 캐비닛 성향. |
+| Eng 4x12 | ENGL 계열 4x12 캐비닛 성향. |
+| Halen 4x12 | Peavey 6505 계열 4x12 성향. |
+| Sol 4x12 | Soldano 계열 4x12 캐비닛 성향. |
+| Calif 4x12 | Mesa/Boogie Road King 계열 4x12 성향. |
+| Dual 4x12 | Mesa/Boogie Rectifier 계열 4x12 성향. |
+| WAM 4x12 | WEM 계열 4x12(Fane 계열 스피커 성향). |
+| Tanger 4x12 | Orange PPC412 계열 4x12 성향. |
+| Watt 4x12 | Hiwatt SE4123 계열 4x12 성향. |
+| Calif 2x10 | Mesa/Boogie 계열 2x10 베이스 캐비닛 성향. |
+| Work 4x10 | SWR Workingman's 계열 4x10 베이스 성향. |
+| A Bass 4x10 | Ampeg SVT-410HE 계열 4x10 베이스 성향. |
+| A Bass 8x10 | Ampeg SVT-810E 계열 8x10 베이스 성향. |
+| D | 드레드넛 어쿠스틱 바디 시뮬레이션. |
+| OM | OM 타입 어쿠스틱 바디 시뮬레이션. |
+| Jumbo | 점보 타입 어쿠스틱 바디 시뮬레이션. |
+| GA | GA 타입 어쿠스틱 바디 시뮬레이션. |
 
 공통 파라미터: `VOL`
 
 ### EQ 모듈
-- Guitar EQ
-- Bass EQ
+| 이름 | 설명 |
+|---|---|
+| Guitar EQ | 기타 대역 중심으로 설계된 이퀄라이저. |
+| Bass EQ | 베이스 대역 중심으로 설계된 이퀄라이저. |
 
-파라미터: 대역별 EQ 조정 + 출력 볼륨
+공통 제어: 각 대역(`XX Hz`) 부스트/컷, 출력 `VOL`
 
 ### MOD 모듈
-- Chorus A/B, Detune, Flanger, Phaser, Vibrato, Vibe
-- Tremolo, Sine Trem, Bias Trem
+| 이름 | 설명 |
+|---|---|
+| Chorus A | Arion SCH-1 계열 스테레오 코러스 성향. |
+| Chorus B | 1970년대 후반 앙상블 코러스 계열 성향. |
+| Detune | 미세 피치 쉬프트를 원음과 섞는 와이드닝 효과. |
+| Flanger | 클래식 플랜저 스윕 성향. |
+| Phaser | MXR Phase 90 계열 페이저 성향. |
+| Vibrato | BBD 계열 블루 비브라토 페달 성향. |
+| Vibe | Voodoo Lab Micro Vibe 계열 성향. |
+| Tremolo | Demeter TRM-1 Tremulator 계열 옵토 트레몰로. |
+| Sine Trem | 사인파 기반 트레몰로. |
+| Bias Trem | 바이어스 파형 기반 트레몰로. |
 
-공통 파라미터: `Depth`, `Rate`, `Tone`, `Mix/Wet/Dry`, `Pre Delay`, `Sync` 등
+공통 파라미터: `Depth`, `Rate`, `Tone`, `VOL`, `Detune`, `Wet`, `Dry`, `Pre Delay`, `FdBk`, `Bias`, `Sync`
 
 ### DLY 모듈
-- Warm, Pure, Mag, Tube, 999 Echo, Reverse, Slap, Rack, Sweep, Ping Pong, Tape
+| 이름 | 설명 |
+|---|---|
+| Warm | BBD 아날로그 딜레이 계열의 따뜻한 반복감. |
+| Pure | 깨끗하고 정확한 딜레이. |
+| Mag | 솔리드스테이트 테이프 에코 계열 성향. |
+| Tube | 진공관 구동 테이프 에코 계열 성향. |
+| 999 Echo | Maxon AD900 계열 아날로그 딜레이 성향. |
+| Reverse | 반전 피드백 기반의 특수 딜레이. |
+| Slap | 클래식 슬랩백 에코 성향. |
+| Rack | 1980s 랙 딜레이 계열의 빈티지 질감. |
+| Sweep | 반복음에 필터 스윕이 걸리는 딜레이. |
+| Ping Pong | 좌우 채널을 오가는 스테레오 딜레이. |
+| Tape | 멀티 테이프 딜레이 계열 성향. |
 
-공통 파라미터: `Mix`, `Time`, `Fdbk`, `Mod`, `Tone`, `Sync`, `Trail`
+공통 파라미터: `Mix`, `Time`, `Fdbk`, `Mod`, `Tone`, `S-Depth`, `S-Rate`, `Sync`, `Trail`
 
 ### RVB 모듈
-- Room, Hall, Church, Plate, Spring, Sky, Sea, Mod RVB
+| 이름 | 설명 |
+|---|---|
+| Room | 룸 공간감 리버브. |
+| Hall | 홀 공간감 리버브. |
+| Church | 교회 규모 공간감 리버브. |
+| Plate | 빈티지 플레이트 리버브 성향. |
+| Spring | 빈티지 스프링 리버브 성향. |
+| Sky | 밝고 풍성한 디케이의 특수 튜닝 리버브. |
+| Sea | 깊고 거대한 디케이의 특수 튜닝 리버브. |
+| Mod RVB | 모듈레이션이 섞인 리버브 텍스처. |
 
 공통 파라미터: `Mix`, `Pre Delay`, `Decay`, `H-Damp`, `Tone`, `Lo End`, `Hi End`, `Trail`
 
@@ -314,3 +448,4 @@ Matribox를 컴퓨터에 연결하면 전용 소프트웨어로 다음 작업이
 
 ## 상표 관련 고지
 모델링 대상 장비명/제조사명은 각 소유자의 상표이며, 사운드 특성 식별 목적으로만 사용됩니다.
+

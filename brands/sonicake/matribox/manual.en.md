@@ -196,64 +196,199 @@ Connect Matribox to computer and use official software to:
 
 Supported OS: Windows, macOS
 
-## 10) Effect List (Organized)
-### FX1 / FX2 (Dynamics, Filter, Drive, Pitch, Utility)
-Key models/effects:
-- COMP, COMP2
-- AC Sim (STD/Jumbo/ENH/Piezo)
-- Touch-W, Auto-W, UK-W, Cry-W
-- Octaver, Dual Melody, Pitch
-- Tape Mod, Ring Mod, Filter, Boost
-- Drive/Fuzz family: Skreamer, Butter OD, Super OD, Blues OD, Dist Plus, JP Dist, Shark, Dark Mouse, Fuzz Cream, Red Fuzz, Bass Dist
+## 10) Effect List (Detailed)
+### FX1 & FX2 Modules
+| Name | Description |
+|---|---|
+| COMP | Based on the legendary Ross compressor style. |
+| COMP 2 | Based on Keeley C4 4-knob compressor style. |
+| AC Sim | Acoustic simulator for electric guitar. Modes: `STD`, `Jumbo`, `ENH`, `Piezo`. |
+| Touch-W | Touch-sensitive wah (guitar/bass modes). |
+| Auto-W | Auto wah with rate-based sweep. |
+| UK-W | VOX V846-style wah model. |
+| Cry-W | Dunlop CryBaby-style wah model. |
+| Octaver | Polyphonic octave effect. |
+| Dual Melody | Polyphonic harmonizer/pitch shifter. |
+| Pitch | Polyphonic pitch shifter/harmonizer. |
+| Tape Mod | Vintage tape saturation for analog-like warmth. |
+| Ring Mod | Ring modulation for inharmonic bell/chime textures. |
+| Filter | 4-step auto filter for synth-like tones. |
+| Boost | Xotic EP Booster-style clean boost. |
+| Skreamer | Ibanez TS-808 Tube Screamer-style overdrive. |
+| Butter OD | 2-knob yellow overdrive style, thick drive character. |
+| Super OD | 3-knob yellow overdrive style. |
+| Blues OD | Blues-style overdrive with full-range driven tone. |
+| Dist Plus | Distortion effect usable for guitar/bass. |
+| JP Dist | Classic orange 3-knob distortion style. |
+| Shark | MI Audio Crunch Box-style distortion. |
+| Dark Mouse | ProCo RAT (early LM308 style) distortion flavor. |
+| Fuzz Cream | Electro-Harmonix Big Muff Pi-style fuzz/distortion. |
+| Red Fuzz | Dallas-Arbiter Fuzz Face-style fuzz. |
+| Bass Dist | Bass-oriented distortion with wide tone range. |
 
-Common parameters (varies by effect):
-- `VOL/Output`, `Gain/Fuzz/Sustain`, `Tone/Filter`, `Mix/Blend`, `Rate`, `Depth`, `Range`, `Q`, `Sync`, `Dry/Wet`, pitch controls
+Common parameter families (model dependent):
+- `Sustain`, `Output`, `Attack`, `Clip`
+- `Body`, `Top`
+- `VOL`, `Sense`, `Range`, `Q`, `Mix/Blend`
+- `Depth`, `Rate`, `Low/Bass`, `High/Treble`, `Sync`
+- `Low Oct`, `High Oct`, `Dry`, `Wet`
+- `H-Pitch`, `L-Pitch`, `H-Vol`, `L-Vol`
+- `Gain/Fuzz`, `H-Cut`, `Freq`, `Fine`, `Tone/Filter`, `Step`, `Bright`
 
 ### AMP Module
-Includes clean/crunch/high-gain/bass/acoustic preamp models, such as:
-- Fender-style: TWD Deluxe, B-Man N/B, Dark Double
-- VOX-style: Voks 30N, Voks 30TB
-- Marshall-style: Brit 45, Brit 50JP, Brit 800
-- Mesa/Boogie-style: Calif Star CL/OD, Calif IIC+, Calif IV, Calif DualV/M
-- High gain: Dizzy VH, Eng 120, Halen 51, Sol 100 LD, Bog XT Blue/Red
-- Bass/Acoustic: A BassVT, A BassFT, F-2Bass, Voks Bass, Calif Bass, AC Preamp
+| Name | Description |
+|---|---|
+| TWD Deluxe | Fender Tweed Deluxe-style amp. |
+| B-Man N | Fender '59 Bassman-style (normal). |
+| Dark Double | Fender '65 Twin Reverb-style. |
+| Calif Star CL | Mesa/Boogie Lone Star CH1-style. |
+| Voks 30N | VOX AC30HW normal channel style. |
+| Bog SV CL | Bogner Shiva 20th Ch1-style. |
+| Jazz 120 | Jazz Chorus style solid-state combo character. |
+| Superb CL | Matchless Chieftain 212 clean style. |
+| Doctor CL | Dr. Z Maz 38 Sr clean style. |
+| Brit 45 | Marshall JTM45 normal channel style. |
+| Brit 50JP | Marshall JMP50 jump-connection style. |
+| Brit 800 | Marshall JCM800 2204 style. |
+| Flyman B1 | Brown Eye UK boutique BE-channel style. |
+| Doctor OD | Dr. Z Maz 38 Sr dirty style. |
+| Bog SV OD | Bogner Shiva 20th Ch2-style. |
+| B-Man B | Fender '59 Bassman bright style. |
+| Voks 30TB | VOX AC30HW Top Boost style. |
+| Supero 2 | Supro Dual-Tone 1624T dirty style. |
+| Superb OD | Matchless Chieftain 212 dirty style. |
+| Sol 100 OD | Soldano SLO100 crunch style. |
+| Calif Star OD | Mesa/Boogie Lone Star CH2-style. |
+| Calif IIC+ | Mesa/Boogie Mark II C+ lead style. |
+| Dizzy VH | Diezel VH4 style. |
+| Eng 120 | ENGL Savage 120 E610 style. |
+| Halen 51 | Peavey 5150 lead-style character. |
+| Sol 100 LD | Soldano SLO100 overdrive style. |
+| Calif IV | Mesa/Boogie Mark IV lead style. |
+| Calif DualV | Mesa/Boogie Dual Rectifier vintage style. |
+| Calif DualM | Mesa/Boogie Dual Rectifier modern style. |
+| Dragon LD | Grindrod Pendragon PG20C style. |
+| Flyman B1+ | Hotter Brown Eye UK boutique variant. |
+| Tanger R100 | Orange Rockerverb 100 dirty style. |
+| Bog XT Blue | Bogner Ecstasy blue channel style. |
+| Bog XT Red | Bogner Ecstasy red channel style. |
+| A BassVT | Ampeg SVT-style bass amp. |
+| A BassFT | Ampeg B-15 Flip Top-style bass amp. |
+| F-2Bass | Alembic F-2B-style bass preamp. |
+| Voks Bass | Vintage VOX AC-100 bass amp style. |
+| Calif Bass | Mesa/Boogie Bass 400 style. |
+| AC Preamp | AER Colourizer 2-style acoustic preamp. |
 
-Common amp parameters:
-- `Gain/VOL`, `Master/Output`, `Bass`, `Middle`, `Treble`, `Presence`, `Bright`, `Cut`, and model-specific controls
+Common amp parameter families:
+- `VOL/Gain`, `Output/Master/VOL`, `PRES`
+- `Bass`, `Middle`, `Treble`, `Tone`, `Cut`
+- `Bright`, `Char`, `MRange`, `Balance`
+- `Freq`, `EQ Q`, `EQ Gain`
 
 ### NR Module
-- Gate 1 (Decimator-style)
-- Gate 2 (attack/release capable)
+| Name | Description |
+|---|---|
+| Gate 1 | ISP Decimator-style noise gate behavior. |
+| Gate 2 | Flexible gate with `Attack`/`Release` controls. |
 
-Parameters: `Thre`, `Attack`, `Rel`
+Common parameters: `Thre`, `Attack`, `Rel`
 
 ### CAB Module
-Large collection of guitar/bass cabinets and acoustic body sims.
-Examples:
-- 1x6, 1x8, 1x10, 1x12, 2x12, 4x10, 4x12, 8x10 formats
-- Acoustic body sims: Dreadnought, OM, Jumbo, GA
+| Name | Description |
+|---|---|
+| Supero 1x6 | Supro-style 1x6 cabinet with oval speaker. |
+| TWD 1x8 | Fender Champ-style 1x8 cabinet. |
+| TWD-P 1x10 | Fender Princeton-style 1x10 cabinet. |
+| Bog SV 1x12 | Bogner Shiva-style 1x12 cabinet. |
+| Viblux 1x12 | Fender Vibrolux-style 1x12 cabinet. |
+| Voks 1x12 | VOX AC15-style 1x12 cabinet. |
+| Calif 1x12 | 1980s Mesa/Boogie-style 1x12 cabinet. |
+| TWD 2x12 | Custom-modified Fender-style 2x12 cabinet. |
+| Double 2x12 | Fender '65 Twin Reverb-style 2x12 cabinet. |
+| Star 2x12 | Mesa/Boogie Lonestar-style 2x12 cabinet. |
+| Rock 2x12 | Two-Rock-style 2x12 cabinet. |
+| Jazz 2x12 | Jazz Chorus-style 2x12 cabinet. |
+| BritGN 2x12 | Marshall 2550-style 2x12 cabinet. |
+| Free 2x12 | Fryette Deliverance-style 2x12 cabinet. |
+| B-Man 4x10 | Fender '59 Bassman-style 4x10 cabinet. |
+| Brit75 4x12 | Marshall-style 4x12 with G12T-75 character. |
+| BritGN 4x12 | Marshall-style 4x12 with Greenback character. |
+| BritLD 4x12 | Marshall 1960AV-style 4x12 cabinet. |
+| BritDK 4x12 | 1968 Marshall-style 4x12 cabinet. |
+| BritMD 4x12 | Custom-modified Marshall-style 4x12 cabinet. |
+| Bog 4x12 | Bogner Uberkab-style 4x12 cabinet. |
+| Dizzy 4x12 | Diezel-style 4x12 cabinet. |
+| Eng 4x12 | ENGL-style 4x12 cabinet. |
+| Halen 4x12 | Peavey 6505-style 4x12 cabinet. |
+| Sol 4x12 | Soldano-style 4x12 cabinet. |
+| Calif 4x12 | Mesa/Boogie Road King-style 4x12 cabinet. |
+| Dual 4x12 | Mesa/Boogie Rectifier-style 4x12 cabinet. |
+| WAM 4x12 | WEM-style 4x12 with Fane-style speakers. |
+| Tanger 4x12 | Orange PPC412-style 4x12 cabinet. |
+| Watt 4x12 | Hiwatt SE4123-style 4x12 cabinet. |
+| Calif 2x10 | Mesa/Boogie-style 2x10 bass cabinet. |
+| Work 4x10 | SWR Workingman's-style 4x10 bass cabinet. |
+| A Bass 4x10 | Ampeg SVT-410HE-style 4x10 bass cabinet. |
+| A Bass 8x10 | Ampeg SVT-810E-style 8x10 bass cabinet. |
+| D | Dreadnought acoustic body simulation. |
+| OM | OM acoustic body simulation. |
+| Jumbo | Jumbo acoustic body simulation. |
+| GA | GA acoustic body simulation. |
 
 Common parameter: `VOL`
 
 ### EQ Module
-- Guitar EQ
-- Bass EQ
+| Name | Description |
+|---|---|
+| Guitar EQ | Equalizer tuned for guitar frequency ranges. |
+| Bass EQ | Equalizer tuned for bass frequency ranges. |
 
-Parameters: frequency-band gain controls + output volume
+Common controls: band gain (`XX Hz`) and output `VOL`
 
 ### MOD Module
-- Chorus A/B, Detune, Flanger, Phaser, Vibrato, Vibe
-- Tremolo types: Tremolo, Sine Trem, Bias Trem
+| Name | Description |
+|---|---|
+| Chorus A | Arion SCH-1 style stereo chorus flavor. |
+| Chorus B | Late-70s ensemble-style chorus character. |
+| Detune | Slight pitch-shift blend for chorus-like widening. |
+| Flanger | Classic flanger with rich sweep. |
+| Phaser | MXR Phase 90 style phasing flavor. |
+| Vibrato | BBD-style blue vibrato pedal character. |
+| Vibe | Voodoo Lab Micro Vibe style. |
+| Tremolo | Demeter TRM-1 Tremulator-style opto tremolo. |
+| Sine Trem | Sine-wave tremolo with wide range. |
+| Bias Trem | Bias-wave tremolo with wide range. |
 
-Common parameters: `Depth`, `Rate`, `Tone`, `Mix/Wet/Dry`, `Pre Delay`, `Sync`, etc.
+Common parameters: `Depth`, `Rate`, `Tone`, `VOL`, `Detune`, `Wet`, `Dry`, `Pre Delay`, `FdBk`, `Bias`, `Sync`
 
 ### DLY Module
-- Warm, Pure, Mag, Tube, 999 Echo, Reverse, Slap, Rack, Sweep, Ping Pong, Tape
+| Name | Description |
+|---|---|
+| Warm | BBD analog delay style with classic repeat character. |
+| Pure | Clean and precise digital delay. |
+| Mag | Solid-state tape echo style. |
+| Tube | Tube-driven tape echo style. |
+| 999 Echo | Maxon AD900 analog delay flavor. |
+| Reverse | Reverse-feedback style delay effect. |
+| Slap | Classic slapback echo style. |
+| Rack | 1980s rack delay flavor with reduced-feedback texture. |
+| Sweep | Delay repeats with sweeping filter modulation. |
+| Ping Pong | Stereo left-right bouncing delay. |
+| Tape | Multi-tape delay style. |
 
-Common parameters: `Mix`, `Time`, `Fdbk`, `Mod`, `Tone`, `Sync`, `Trail`
+Common parameters: `Mix`, `Time`, `Fdbk`, `Mod`, `Tone`, `S-Depth`, `S-Rate`, `Sync`, `Trail`
 
 ### RVB Module
-- Room, Hall, Church, Plate, Spring, Sky, Sea, Mod RVB
+| Name | Description |
+|---|---|
+| Room | Room ambience simulation. |
+| Hall | Performance hall ambience simulation. |
+| Church | Church-size ambience simulation. |
+| Plate | Vintage plate reverb style. |
+| Spring | Vintage spring reverb style. |
+| Sky | Bright, lush custom reverb decay. |
+| Sea | Deep, huge custom reverb decay. |
+| Mod RVB | Modulated reverb with lush texture. |
 
 Common parameters: `Mix`, `Pre Delay`, `Decay`, `H-Damp`, `Tone`, `Lo End`, `Hi End`, `Trail`
 
@@ -313,3 +448,4 @@ Common parameters: `Mix`, `Pre Delay`, `Decay`, `H-Damp`, `Tone`, `Lo End`, `Hi 
 
 ## Trademark Notice
 Manufacturer/product names referenced in modeled effects are trademarks of their respective owners and are used only to identify sound character.
+
