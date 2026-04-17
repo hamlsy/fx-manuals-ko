@@ -1,0 +1,4 @@
+﻿
+# Ignore undeletable temp directory created during setup
+brands/.keep/
+

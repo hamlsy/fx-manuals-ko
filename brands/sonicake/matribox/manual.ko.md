@@ -1,0 +1,316 @@
+﻿---
+brand: "sonicake"
+model: "matribox"
+language: "ko"
+source: "User-provided text (translated and reorganized)"
+firmware: "v1.0.4"
+last_updated: "2026-04-17"
+---
+
+# SONICAKE Matribox 사용설명서 (한국어)
+
+## 안내
+제품 개선을 위해 사전 고지 없이 사양 및 구성(외관, 패키지, 매뉴얼 내용, 액세서리, 크기, 파라미터, 화면 표시 등)이 변경될 수 있습니다. 지역/모델에 따라 사양과 기능(색상, 크기 포함)이 다를 수 있으며, 이미지들은 예시입니다.
+
+- 펌웨어 기준: `v1.0.4`
+- 지원 이메일: `support@sonicake.com`
+- 소프트웨어 페이지: `www.sonicake.com/products/matribox`
+
+## 목차
+1. 주의사항
+2. 제품 개요
+3. 패널 소개
+4. 메인 메뉴
+5. 동작 모드
+6. 이펙트 편집 메뉴
+7. 저장 / 튜너 / 루퍼 / 드럼
+8. 글로벌 설정
+9. 소프트웨어
+10. 이펙트 목록
+11. 문제 해결
+12. 주요 사양
+
+## 1) 주의사항
+### 취급
+- 기기를 물에 젖지 않게 하십시오. 액체가 들어가면 즉시 전원을 끄십시오.
+- 통풍구를 막지 마십시오.
+- 열원 근처에 두지 마십시오.
+- 폭풍/낙뢰 시 전원을 분리하십시오.
+- 강한 전자기장 환경에서 사용을 피하십시오.
+
+### 전원 및 입출력 연결
+- 케이블 연결/해제 전, 본체와 연결 장비 전원을 모두 끄십시오.
+- 기기 이동 전, 모든 연결 케이블과 어댑터를 분리하십시오.
+
+### 청소
+- 마른 천으로만 청소하십시오.
+
+### 분해/개조
+- 기기를 열지 마십시오.
+- 사용자가 직접 수리하지 마십시오.
+- 섀시를 열면 제조사 보증이 무효가 될 수 있습니다.
+
+### AC 어댑터
+- 반드시 `DC 9V 센터 마이너스 500mA` 어댑터를 사용하십시오.
+- 규격이 다른 어댑터는 오작동/안전 문제를 유발할 수 있습니다.
+- 어댑터 정격 전압에 맞는 콘센트를 사용하십시오.
+- 장기간 미사용 또는 낙뢰 시 전원을 분리하십시오.
+
+### 오작동 시
+1. AC 어댑터 분리 후 전원을 끄십시오.
+2. 연결된 다른 케이블도 모두 분리하십시오.
+3. 모델명/시리얼/증상을 정리하십시오.
+4. SONICAKE 지원팀에 문의하십시오.
+
+## 2) 제품 개요
+Matribox는 컴팩트한 멀티이펙트 프로세서로, 130개 이상의 이펙트를 제공합니다. 일렉기타, 어쿠스틱기타, 베이스, 키보드 등 다양한 악기에 사용할 수 있습니다.
+
+핵심 특징:
+- 40개 이상의 앰프 모델
+- 9개의 이동 가능한 이펙트 모듈(이펙트 매트릭스)
+- 실제 회로 반응을 반영한 디지털 모델링 기반 톤 처리
+
+## 3) 패널 소개
+### 상단 컨트롤
+1. 마스터 볼륨 조절
+2. 화면(프리셋 및 동작 정보 표시)
+3. `PARA` 노브: 회전/눌러 파라미터 및 메뉴 조작
+4. `GLOBAL` 버튼
+5. `DRUM` 버튼 (짧게: 드럼 On/Off, 길게: 드럼 메뉴)
+6. `BACK` 버튼(이전 메뉴)
+7. `SAVE` 버튼(저장/이름 변경/복사)
+8. 화면 하단 3개 노브(메뉴별 파라미터 조절)
+9. 풋스위치:
+- 프리셋 앞/뒤 전환
+- 두 스위치 동시: 튜너
+- 두 스위치 길게: 루퍼
+10. 익스프레션 페달:
+- 지정 파라미터 또는 볼륨 제어
+- 토 스위치로 페달 기능 전환
+
+### 입출력 단자
+11. 1/4" TS 모노 입력(악기)
+12. 1/4" TS 스테레오 출력 2개(L/R)
+13. 1/8" TRS 스테레오 입력(AUX)
+14. 1/8" TRS 스테레오 출력(헤드폰)
+15. USB Type-C(전용 에디터/오디오 인터페이스)
+16. DC 9V 센터 마이너스 전원 입력
+
+## 4) 메인 메뉴
+메인 화면 정보:
+- 프리셋 번호: `P01-P99`(사용자), `F01-F99`(공장)
+- 프리셋 상태: 저장되지 않은 변경 여부
+- Drum 상태: On/Off 표시
+- EXP 상태: On/Off 표시
+- 프리셋 정보 영역
+- BPM: `40-250`
+- 모드: `Preset` 또는 `Stomp`
+- P-VOL: 프리셋 볼륨
+
+## 5) 동작 모드
+Matribox는 풋스위치 동작이 다른 2가지 모드를 제공합니다.
+
+### Preset 모드
+- 풋스위치를 눌러 프리셋을 전환합니다.
+
+### Stomp 모드
+- 풋스위치를 눌러 해당 모듈 On/Off를 전환합니다.
+- 어떤 모듈을 연결할지는 이펙트 편집 메뉴에서 설정합니다.
+
+### 모드 전환
+- 메인 메뉴에서 지정된 풋스위치를 길게 눌러 Preset/Stomp를 전환합니다.
+
+### Tap Tempo
+- 지정 풋스위치를 길게 눌러 Tap Tempo를 활성화합니다.
+- 탭 입력으로 프리셋 BPM을 설정합니다.
+- 다시 길게 눌러 종료합니다.
+
+## 6) 이펙트 편집 메뉴
+- 메인 메뉴에서 `PARA`를 눌러 진입합니다.
+- `PARA` 회전: 편집할 모듈 선택
+- `PARA` 클릭: 현재 모듈 파라미터 페이지 전환
+- 하단 3개 노브: 화면 파라미터 바의 3개 항목 제어
+- 모듈 On/Off, 이펙트 전환, 파라미터 조정 수행
+- Stomp 모드에서는 `FS Switch` 항목으로 풋스위치 할당 가능
+- 이 메뉴에서 `PARA` 길게: 이펙트 체인 순서 조정
+
+## 7) 저장 / 튜너 / 루퍼 / 드럼
+### 저장(Save)
+`SAVE` 버튼으로 저장 메뉴에 들어가 편집 항목을 프리셋에 저장하고, 저장 위치 선택 및 프리셋 이름 변경이 가능합니다.
+
+### 튜너(Tuner)
+- 두 풋스위치를 동시에 눌러 튜너 진입
+- 모드: `Mute`, `Bypass`, `Thru`
+- 기준 피치: `435Hz-445Hz`
+
+### 루퍼(Looper)
+- 두 풋스위치를 길게 눌러 루퍼 진입
+- 녹음/재생/오버더빙을 풋스위치로 제어
+- 정지 풋스위치로 전체 정지, 길게 눌러 전체 삭제
+- `PARA` 노브로 프리셋 전환 가능
+
+루퍼 모드:
+- `Pre`: 이펙트 없는 모노 녹음, 최대 90초
+- `Post`: 이펙트 포함 스테레오 녹음, 최대 45초
+
+### 드럼(Drum)
+- `DRUM` 버튼 길게 눌러 드럼 메뉴 진입
+- 리듬 스타일, 속도, 볼륨 설정
+- `Sync` On 시 프리셋 BPM과 동기화
+
+## 8) 글로벌 설정
+`GLOBAL` 버튼으로 진입하며, `PARA` 회전/클릭으로 항목과 페이지를 이동합니다.
+
+### Input/Output
+- Input Level: `-20dB ~ +20dB`
+- No CAB (L/R): 선택한 출력 채널에서 CAB 모듈 우회(프리셋 설정 무시)
+
+### USB Audio
+- Rec Level: `-20dB ~ +20dB`
+- Monitor Level: `-20dB ~ +6dB`
+- Rec Mode (L/R): 녹음 채널을 Dry/Wet 중 선택
+
+### Tap Tempo Mode
+- `FX1`, `FX2`, `DLY`, `MOD`를 프리셋 BPM 강제 동기화 가능
+
+### EXP Setting
+- Target: 익스프레션 페달 제어 대상/파라미터 지정
+- EXP Range: 최소/최대 값 범위 설정
+- VOL Range: 볼륨 제어 범위 및 유효 구간 설정
+- Calibrate: 페달 캘리브레이션 실행
+
+### Factory Reset
+- 사용자 데이터를 지우고 공장 상태로 복원
+
+### About
+- 펌웨어 정보 표시
+
+## 9) 소프트웨어
+Matribox를 컴퓨터에 연결하면 전용 소프트웨어로 다음 작업이 가능합니다.
+- 기기/프리셋 관리
+- 톤 설정 편집
+- 파일 전송
+- 펌웨어 업데이트
+- 설정 복원
+- 서드파티 IR 업로드
+
+지원 플랫폼: Windows, macOS
+
+## 10) 이펙트 목록 (정리본)
+### FX1 / FX2 (다이내믹, 필터, 드라이브, 피치 등)
+대표 이펙트:
+- COMP, COMP2
+- AC Sim (STD/Jumbo/ENH/Piezo)
+- Touch-W, Auto-W, UK-W, Cry-W
+- Octaver, Dual Melody, Pitch
+- Tape Mod, Ring Mod, Filter, Boost
+- 드라이브/퍼즈 계열: Skreamer, Butter OD, Super OD, Blues OD, Dist Plus, JP Dist, Shark, Dark Mouse, Fuzz Cream, Red Fuzz, Bass Dist
+
+공통 파라미터(효과별 상이):
+- `VOL/Output`, `Gain/Fuzz/Sustain`, `Tone/Filter`, `Mix/Blend`, `Rate`, `Depth`, `Range`, `Q`, `Sync`, `Dry/Wet`, 피치 관련 값
+
+### AMP 모듈
+클린/크런치/하이게인/베이스/어쿠스틱 프리앰프 모델 제공.
+예:
+- Fender 계열: TWD Deluxe, B-Man N/B, Dark Double
+- VOX 계열: Voks 30N, Voks 30TB
+- Marshall 계열: Brit 45, Brit 50JP, Brit 800
+- Mesa/Boogie 계열: Calif Star CL/OD, Calif IIC+, Calif IV, Calif DualV/M
+- 하이게인: Dizzy VH, Eng 120, Halen 51, Sol 100 LD, Bog XT Blue/Red
+- 베이스/어쿠스틱: A BassVT, A BassFT, F-2Bass, Voks Bass, Calif Bass, AC Preamp
+
+앰프 공통 파라미터:
+- `Gain/VOL`, `Master/Output`, `Bass`, `Middle`, `Treble`, `Presence`, `Bright`, `Cut` 등
+
+### NR 모듈
+- Gate 1(Decimator 스타일)
+- Gate 2(Attack/Release 조절형)
+
+파라미터: `Thre`, `Attack`, `Rel`
+
+### CAB 모듈
+다양한 기타/베이스 캐비닛 및 어쿠스틱 바디 시뮬레이션 제공.
+예:
+- 1x6, 1x8, 1x10, 1x12, 2x12, 4x10, 4x12, 8x10
+- 어쿠스틱 바디: Dreadnought, OM, Jumbo, GA
+
+공통 파라미터: `VOL`
+
+### EQ 모듈
+- Guitar EQ
+- Bass EQ
+
+파라미터: 대역별 EQ 조정 + 출력 볼륨
+
+### MOD 모듈
+- Chorus A/B, Detune, Flanger, Phaser, Vibrato, Vibe
+- Tremolo, Sine Trem, Bias Trem
+
+공통 파라미터: `Depth`, `Rate`, `Tone`, `Mix/Wet/Dry`, `Pre Delay`, `Sync` 등
+
+### DLY 모듈
+- Warm, Pure, Mag, Tube, 999 Echo, Reverse, Slap, Rack, Sweep, Ping Pong, Tape
+
+공통 파라미터: `Mix`, `Time`, `Fdbk`, `Mod`, `Tone`, `Sync`, `Trail`
+
+### RVB 모듈
+- Room, Hall, Church, Plate, Spring, Sky, Sea, Mod RVB
+
+공통 파라미터: `Mix`, `Pre Delay`, `Decay`, `H-Damp`, `Tone`, `Lo End`, `Hi End`, `Trail`
+
+## 11) 문제 해결
+### 전원이 켜지지 않음
+- 전원 연결 상태 확인
+- 어댑터 정상 동작 확인
+- 어댑터 규격(`DC 9V 센터 마이너스 500mA`) 확인
+
+### 소리가 안 나거나 매우 작음
+- 케이블 연결 상태 확인
+- 출력 볼륨 및 모듈 볼륨 확인
+- EXP를 볼륨으로 쓰는 경우 페달 위치/범위 확인
+- 프리셋 볼륨, 입력 음소거 상태 확인
+
+### 노이즈 발생
+- 케이블 및 악기 출력 잭 확인
+- 올바른 전원 어댑터 사용 여부 확인
+- 악기 원인 노이즈는 NR 모듈로 보정
+
+### 사운드 이상
+- 연결 케이블/외부 페달 설정 확인
+- 이펙트 파라미터 과도 설정 여부 확인
+
+### 익스프레션 페달 문제
+- EXP On/Off 설정 확인
+- 캘리브레이션 수행
+
+## 12) 주요 사양
+### 오디오/처리
+- A/D/A: 24-bit 고성능 오디오
+- 샘플레이트: 44.1 kHz
+- SNR: 110 dB
+- 동시 이펙트 수: 최대 9
+
+### 프리셋/유틸리티
+- 메모리: 사용자 99 + 공장 99
+- 루퍼: 최대 90초
+- 드럼머신: 100 패턴
+
+### 아날로그 I/O
+- 기타 입력: 1/4" TS 언밸런스, 1M Ohm
+- AUX 입력: 1/8" TRS 스테레오, 10k Ohm
+- L/R 출력: 1/4" TS 언밸런스, 1k Ohm
+- 헤드폰 출력: 1/8" TRS 스테레오, 47 Ohm
+
+### USB
+- USB 2.0 Type-C
+- USB 녹음: 44.1 kHz, 16-bit/24-bit 지원
+
+### 크기/무게
+- 크기: 200 (W) x 137.5 (D) x 53.6 (H) mm
+- 무게: 732 g
+
+### 전원
+- DC 9V 센터 마이너스, 500mA
+
+## 상표 관련 고지
+모델링 대상 장비명/제조사명은 각 소유자의 상표이며, 사운드 특성 식별 목적으로만 사용됩니다.
